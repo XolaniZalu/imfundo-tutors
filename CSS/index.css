@@ -344,6 +344,11 @@ button:hover {
 .index-about-text a {
     margin: 0 auto;
 }
+
+form h3 {
+    text-align: center;
+    margin-bottom: 25px;
+}
   }
   
   
