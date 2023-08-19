@@ -104,6 +104,21 @@ h3 {
     color: #f7f3f3;
 }
 
+.note {
+    color: red;
+}
+
+strong {
+    color: red;
+}
+
+.fee {
+    margin-left: 25px;
+}
+
+.fee h3 {
+    font-size: 1.5rem;
+}
 
 /*Mobile Version*/
 
