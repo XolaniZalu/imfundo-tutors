@@ -1,0 +1,122 @@
+/* 
+font-size:
+p = 1.5rem
+h1= 1.8rem
+h2 = 1.8rem
+h3 = 1.6rem
+
+text color:
+p = #fff
+h1 = #000
+h2 = #000
+h3 = #000
+
+shadow:
+h1,2,3 = 2px 2px 5px
+*/
+
+p {
+    font-size: 1.8rem;
+    z-index: 800;
+}
+
+h2 {
+    font-size: 2rem;
+    z-index: 800;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+.our-services h1 {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgb(35, 29, 21);
+}
+
+.servics-main {
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    padding: 15px;
+}
+
+.services-discr {
+    padding-top: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.our-services {
+    margin-top: 20px;
+}
+
+.academic-success {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.academic-success h1 {
+    color:rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgb(35, 29, 21);
+}
+
+/*Cards*/
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 20px;
+    background-color: #f7f3f3;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.modules-tutored {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.modules-header {
+    margin-left: 20px;
+}
+
+.footer-main-sitemap h3 {
+    font-size: 1.5rem;
+    color: #f7f3f3;
+}
+
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 600px) {
+    .services-discr {
+        text-align: center;
+    }
+
+    .academic-success {
+        text-align: center;
+}
+
+.our-services {
+    text-align: center;
+}
+}
