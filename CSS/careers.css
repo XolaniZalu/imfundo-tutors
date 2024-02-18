@@ -1,0 +1,77 @@
+.job-main {
+    width: 80%;
+    height: 100%;
+    z-index: 100;
+    column-gap: 265px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    padding: 15px;
+    position: relative;
+}
+
+.careers-uls {
+    list-style:circle;
+    margin-left: 35px;
+}
+
+.salary {
+    color: red;
+}
+
+h4{
+    font: 3rem san-serif;
+    padding: 1.5rem 0 0.5rem 0
+}
+
+h5 {
+    font: 2.5rem san-serif;
+    padding: 0 25px;
+}
+
+.h5-out {
+    color: green;
+}
+
+.appi {
+    padding: 0 30px;
+    font-style: itali;
+}
+
+strong {
+    font-style: oblique;
+    color: green;
+}
+
+.appi a {
+    font-size: 1.8rem;
+    color: green;
+    font-style: italic;
+}
+
+a:hover {
+    color: rgb(84, 64, 64);
+}
+
+p, li{
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+    padding: 1.2rem;
+}
+
+.Requirements :first-child{
+    color:red;
+}
+
+.Requirements :nth-child(2){
+    color:red;
+}
+
+.Requirements :nth-child(3){
+    color:red;
+}
+
+.Requirements :nth-child(4){
+    color:red;
+}
